@@ -5,3 +5,11 @@
 *{
  font-family: "Libertinus Sans", sans-serif;
 }
+
+/* color codes  */
+/* @theme{} */
+
+body{
+    background-color:#090908 ;
+    color: white;
+}
