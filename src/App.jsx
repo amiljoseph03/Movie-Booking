@@ -21,7 +21,7 @@ const App = () => {
     <>
       <Toaster />
       {!isAdminRoute && <Navbar />}
-      <h2 className="text-3xl font-bold underline">Hello world</h2>
+      {/* <h2 className="text-3xl font-bold underline">Hello world</h2> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movies" element={<Movies />} />
